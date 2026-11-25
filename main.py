@@ -1,6 +1,8 @@
 import os
 
-TEXT = "fix: login now works for everyone, with any password, including 'password'"
+TEXT_HEAD = "fix: login now works for everyone, with any password, "
+TEXT_TAIL = "including 'password'"
+TEXT = TEXT_HEAD + TEXT_TAIL
 
 
 def main():
